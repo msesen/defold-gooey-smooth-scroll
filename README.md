@@ -3,7 +3,7 @@ A lua module that adds smooth scrolling/inertia to the lists using the official 
 
 # Make sure you understand how Gooey works
 - https://github.com/britzl/gooey
-- This module works with gooey.static, dynamic, vertical and and horizontal lists.
+- This module works with gooey.static, dynamic, vertical and horizontal lists.
 
 # Installation
 Place the Scroll.lua module in your project and require it at the top of your gui_script file.
