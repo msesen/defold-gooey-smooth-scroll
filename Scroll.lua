@@ -1,10 +1,5 @@
 local gooey = require "gooey.gooey"
--- local appmod = require "src.core.app"
--- local helpermod = require "src.core.helpers.helper"
--- local guihelpermod = require "src.core.helpers.gui_helper"
-
 local Scroll = {}
-
 
 -- Create a new scroller
 function Scroll:new(o)
@@ -217,6 +212,7 @@ function Scroll:setDynamiclist(action)
     -- elseif listId   == 'blockedContentBg'   then self.listData.blockedList  = list
     -- end
 end
+
 
 
 
