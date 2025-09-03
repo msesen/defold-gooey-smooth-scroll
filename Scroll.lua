@@ -15,7 +15,7 @@ function Scroll:init(data)
     -- Smooth scrolling
     self.parent             = data.parent
     self.config             = data.config or {}
-    self.dynamic            = data.dynamic -- Whether this is a dynamic list or a static list (true for dyanmic).
+    self.dynamic            = data.dynamic -- Whether this is a dynamic list or a static list (true for dynamic).
     self.scrollTo           = data.scrollTo -- Set the scroll position of the list's x and y (e.g. {x = 1, y = 0})
     self.inertia            = data.inertia or true  -- Disable/Enable inertia effect
     self.inputAction        = {}   -- The current touch/mouse input action
@@ -217,3 +217,4 @@ end
 
 
 return Scroll
+
