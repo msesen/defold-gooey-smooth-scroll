@@ -45,10 +45,6 @@ function Scroll:init(data)
 
     -- Init and position the static list elements and set the stencil.
     self:setScrollableList()
-    
-    -- local action1 = {x = 557.5, screen_dy = 0, dy = 0, dx = 0, y = 237.5, screen_x = 557, screen_y = 237, screen_dx = 0, pressed = false, released = false, value = 1}
-    -- local action2 = {x = 557.5, screen_dy = 0, dy = 0, dx = 0, y = 237.5, screen_x = 557, screen_y = 237, screen_dx = 0, pressed = false, released = true, value = 0}
-    -- self:setScrollableList(action1)
 end
 
 
@@ -205,16 +201,11 @@ function Scroll:setDynamiclist(action)
 
     -- Return whether the input was consumed by the list
     return group.consumed
-    
-    -- Reference the dynamic list data so we can access it to clear the list etc. when refreshing the data
-    -- if listId       == 'listContentBg'      then self.listData.friendsList  = list
-    -- elseif listId   == 'requestsContentBg'  then self.listData.requestsList = list
-    -- elseif listId   == 'blockedContentBg'   then self.listData.blockedList  = list
-    -- end
 end
 
 
 
 
 return Scroll
+
 
